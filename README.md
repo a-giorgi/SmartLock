@@ -39,7 +39,7 @@ Later, during development, we have discovered through the needfinding process th
 So, with these concepts in mind we created and developed the Smart Lock system.
 
 # Project Documents
-Final Report: 
+Final Report: [https://github.com/a-giorgi/SmartLock/blob/master/SmartLock_Final_Report.pdf](https://github.com/a-giorgi/SmartLock/blob/master/SmartLock_Final_Report.pdf)
 
 # Bibliography
 

@@ -3,7 +3,7 @@
 
 - **Academic Year**: 2019-2020
 - **Project Title**: Smart Lock
-- **Students**: Edoardo Cagnes, Andrea Giorgi
+- **Students**: Edoardo Cagnes\[1\], Andrea Giorgi
 - **CFUs**: 9 
 
 In this project we will build an IoT system about checking the status of a Lock.
@@ -19,9 +19,9 @@ For the users, we developed an Android application that queries the Web Server a
 # Tools and Techniques
 
 The main tools and techniques we will employ are:
-- **Android Studio**: for the Android application \[1\].
-- **Arduino IDE**: for programming the ESP8266 \[2\].
-- **PHP Storm**: for the file on the PHP web server \[3\].
+- **Android Studio**: for the Android application \[2\].
+- **Arduino IDE**: for programming the ESP8266 \[3\].
+- **PHP Storm**: for the file on the PHP web server \[4\].
 
 
 # Expected Outcomes
@@ -43,8 +43,10 @@ Final Report: [https://github.com/a-giorgi/SmartLock/blob/master/SmartLock_Final
 
 # Bibliography
 
-\[1\] https://developer.android.com/studio
+\[1\] https://github.com/isca107
 
-\[2\] https://www.arduino.cc/en/main/software
+\[2\] https://developer.android.com/studio
 
-\[3\] https://www.jetbrains.com/phpstorm/
+\[3\] https://www.arduino.cc/en/main/software
+
+\[4\] https://www.jetbrains.com/phpstorm/

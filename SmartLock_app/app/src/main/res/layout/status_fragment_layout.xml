@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:gravity="center"
+    android:id="@+id/ppp">
+
+    <ImageView
+        android:id="@+id/led"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/gray_led"/>
+
+    <TextView
+        android:id="@+id/lockStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryWhite"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/padlock"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/update_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="Update status"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textSize="15sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="@drawable/button_layout"
+        android:drawableLeft="@drawable/refresh_circle" />
+
+    <Switch
+        android:id="@+id/notifications"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Toggle status notifications"
+        android:textColor="@color/colorPrimaryWhite"
+        android:switchPadding="15dp"/>
+
+</LinearLayout>

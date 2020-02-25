@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Please select a device"
+        android:id="@+id/selectDevice"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textAlignment="center"/>
+
+    <ListView
+        android:id="@+id/devicesList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:dividerHeight="1dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:divider="@color/colorIconButton"
+        android:choiceMode="singleChoice"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:scrollbarThumbVertical="@color/colorIconButton"/>
+
+    <TextView
+        android:id="@+id/noDevices"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimaryWhite"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:text="Bring your smartphone close to the NFC chip to add the device to the list" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerInParent="true">
+
+            <Button
+                android:id="@+id/checkStatus"
+                android:text="Check status"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="15sp"
+                android:layout_width="0px"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout"
+                android:drawableLeft="@drawable/eye" />
+
+            <LinearLayout
+                android:layout_width="0px"
+                android:layout_weight="0.2"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"/>
+
+            <Button
+                android:id="@+id/removeDevice"
+                android:text="Remove device"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryWhite"
+                android:textSize="15sp"
+                android:layout_width="0px"
+                android:layout_weight="0.5"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_layout"
+                android:drawableLeft="@drawable/delete"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

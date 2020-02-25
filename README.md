@@ -8,9 +8,11 @@
 
 In this project we will build an IoT system about checking the status of a Lock.
 We used ad ESP8266 to detect whether the lock is closed or not: a button inside the hole of the bolt act as a sensor and whenerver it's pressed or released its send a signal to a Web Server.
+
 ![device.png](/Images/device.png)
 
 For the users, we developed an Android application that queries the Web Server about the status and show it to the user.
+
 ![app.png](/Images/app.png)
 
 

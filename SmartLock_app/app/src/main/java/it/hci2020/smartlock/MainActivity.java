@@ -36,9 +36,9 @@ import it.hci2020.smartlock.ui.main.SectionsPagerAdapter;
 
 public class MainActivity extends AppCompatActivity
 {
-    private static final String mainUrl = "https://www.brigataotaku.it/";
-    private static final String monitorUrl = mainUrl+"hci2020/monitor.php";
-    private static final String notificationUrl = mainUrl+"hci2020/notification.php";
+    private static final String mainUrl = "SERVER_URL_HERE";
+    private static final String monitorUrl = mainUrl+"PATH_TO_PHP_FILES/monitor.php";
+    private static final String notificationUrl = mainUrl+"PATH_TO_PHP_FILES/notification.php";
 
     public static boolean isDeviceSelected = false;
 

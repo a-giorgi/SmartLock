@@ -1,11 +1,6 @@
 
 # Overview
 
-- **Academic Year**: 2019-2020
-- **Project Title**: Smart Lock
-- **Students**: Edoardo Cagnes\[1\], Andrea Giorgi
-- **CFUs**: 9 
-
 In this project we will build an IoT system about checking the status of a Lock.
 We used ad ESP8266 to detect whether the lock is closed or not: a button inside the hole of the bolt act as a sensor and whenerver it's pressed or released its send a signal to a Web Server.
 
